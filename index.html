@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class="left-wrapper">
+			<div class="top-left">
+				<h1>FAST FOOD</h1>
+				<div class="add-users">
+					<form>
+						<input type="text" placeholder="name...">
+						<input type="number" placeholder="tel:">
+						<button class="btn-add">ADD</button>
+					</form>
+				</div>
+				<div class="users-wrapper">
+					<div class="users-information">
+						<ul>
+							<li class="contact-item" id="1">
+								<span>Sherzod</span>
+								<span>+998901643551</span>
+							</li>
+							<li class="contact-item" id="2">
+								<span>Anvar</span>
+								<span>+998901643551</span>
+							</li>
+							<li class="contact-item" id="3">
+								<span>Alisher</span>
+								<span>+998901643551</span>
+							</li>
+							<li class="contact-item" id="4">
+								<span>Komil</span>
+								<span>+998901643551</span>
+							</li>
+							<li class="contact-item" id="5">
+								<span>Ravshan</span>
+								<span>+998901643551</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right-wrapper">
+			<div class="top-right">
+			<h1>Sherzod</h1>
+			<ul class="orders-list">
+				<h2>ORDERS</h2>
+				<li class="orders-item">
+					<img src="./img/lavash.png" alt="lavash" width="100px" height="80px">
+					<h3>LAVASH</h3>
+					<h3>1</h3>
+				</li>
+				<li class="orders-item">
+					<img src="./img/coca-cola.png" alt="coca-cola" width="100px" height="80px">
+					<h3>Coca Cola</h3>
+					<h3>2</h3>
+				</li>
+			</ul>
+			</div>
+			<div class="add-order">
+				<h2>ADD ORDER</h2>
+				<form>
+					<select name="add-order" id="add-order">
+						<option value="LAVASH">LAVASH
+						</option>
+						<option value="coca-cola">COCA-COLA
+						</option>
+					</select>
+					<input type="number" placeholder="count...">
+				<button class="btn-add-order">+</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
